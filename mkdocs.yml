@@ -8,7 +8,7 @@ theme:
 
   features:
     - content.code.copy
-    # - navigation.expand
+    - navigation.expand
     - navigation.indexes 
     - navigation.tabs
     - navigation.tabs.sticky
