@@ -4,7 +4,7 @@ title: ATerms-sig.stx
 
 # `ATerms-sig.stx`
 
-:simple-github: [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/ATerms-sig.stx]
+
 
 [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/ATerms-sig.stx]: https://github.com/pdmosses/metaborg-tiger/blob/master/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/ATerms-sig.stx "The source file on GitHub"
 

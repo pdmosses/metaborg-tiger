@@ -4,7 +4,7 @@ title: Whitespace-sig.stx
 
 # `Whitespace-sig.stx`
 
-:simple-github: [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Whitespace-sig.stx]
+
 
 [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Whitespace-sig.stx]: https://github.com/pdmosses/metaborg-tiger/blob/master/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Whitespace-sig.stx "The source file on GitHub"
 

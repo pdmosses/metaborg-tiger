@@ -4,7 +4,7 @@ title: Variables-sig.stx
 
 # `Variables-sig.stx`
 
-:simple-github: [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Variables-sig.stx]
+
 
 [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Variables-sig.stx]: https://github.com/pdmosses/metaborg-tiger/blob/master/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Variables-sig.stx "The source file on GitHub"
 

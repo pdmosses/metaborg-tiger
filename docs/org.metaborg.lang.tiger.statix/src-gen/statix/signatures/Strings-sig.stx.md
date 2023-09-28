@@ -4,7 +4,7 @@ title: Strings-sig.stx
 
 # `Strings-sig.stx`
 
-:simple-github: [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Strings-sig.stx]
+
 
 [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Strings-sig.stx]: https://github.com/pdmosses/metaborg-tiger/blob/master/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Strings-sig.stx "The source file on GitHub"
 

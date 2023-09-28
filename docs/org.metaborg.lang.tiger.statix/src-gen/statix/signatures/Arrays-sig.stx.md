@@ -4,7 +4,7 @@ title: Arrays-sig.stx
 
 # `Arrays-sig.stx`
 
-:simple-github: [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Arrays-sig.stx]
+
 
 [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Arrays-sig.stx]: https://github.com/pdmosses/metaborg-tiger/blob/master/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Arrays-sig.stx "The source file on GitHub"
 
