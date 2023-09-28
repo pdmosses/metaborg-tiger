@@ -1,7 +1,8 @@
 module static-semantics
 
 imports
-  signatures/start-sig
+//  signatures/start-sig
+  signatures/Tiger-sig
 
 rules // single-file entry point
 
