@@ -1,7 +1,7 @@
 # Spoofax
 *.aterm
 .cache/
-src-gen/
+/*/src-gen/
 store.core.ds
 
 

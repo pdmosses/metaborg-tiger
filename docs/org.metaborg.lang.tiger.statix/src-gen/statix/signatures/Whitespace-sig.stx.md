@@ -1,0 +1,48 @@
+---
+title: Whitespace-sig.stx
+---
+
+# `Whitespace-sig.stx`
+
+:simple-github: [pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Whitespace-sig.stx]
+
+[pdmosses/metaborg-tiger/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Whitespace-sig.stx]: https://github.com/pdmosses/metaborg-tiger/blob/master/org.metaborg.lang.tiger.statix/src-gen/statix/signatures/Whitespace-sig.stx "The source file on GitHub"
+
+<div class="stx"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></div></td>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger-sig.stx#signatures/Whitespace-sig_61_86" id="signatures/Whitespace-sig_7_32" title="Referenced at ../Tiger-sig.stx line 5">signatures/Whitespace-sig</a>
+
+<span class="keyword">imports</span>
+
+<span class="keyword">signature</span>
+
+  <span class="keyword">sorts</span>
+    <span id="CommentChar_66_77" title="Not referenced locally, nor via imports">CommentChar</span> = <span class="keyword">string</span>
+    <span id="InsideComment_91_104" title="Not referenced locally, nor via imports">InsideComment</span> = <span class="keyword">string</span>
+    <span id="SingleLineComment_118_135" title="Not referenced locally, nor via imports">SingleLineComment</span> = <span class="keyword">string</span>
+    <span id="NewLineEOF_149_159" title="Not referenced locally, nor via imports">NewLineEOF</span> = <span class="keyword">string</span>
+    <span id="EOF_173_176" title="Not referenced locally, nor via imports">EOF</span> = <span class="keyword">string</span>
+
+  <span class="keyword">constructors</span>
+
+<span class="keyword">signature</span>
+
+  <span class="keyword">constructors</span>
+</code></pre></td></tr></tbody></table></div>
