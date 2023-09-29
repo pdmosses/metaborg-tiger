@@ -59,10 +59,10 @@ title: Tiger-sig.stx
     <a href="#Module_414_420" id="Module_372_378" title="Referenced at line 23, 28; ../../../../trans/static-semantics.stx line 8">Module</a>
 
   <span class="keyword">constructors</span>
-    Module-Plhdr : <a href="#Module_372_378" id="Module_414_420" title="Defined at line 20">Module</a>
+    <a href="../../../../trans/static-semantics.stx#Module-Plhdr_12571_12583" id="Module-Plhdr_399_411" title="Referenced at ../../../../trans/static-semantics.stx line 517">Module-Plhdr</a> : <a href="#Module_372_378" id="Module_414_420" title="Defined at line 20">Module</a>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">constructors</span>
-    Mod : <a href="../Base-sig.stx#Exp_68_71" id="Exp_458_461" title="Defined at ../Base-sig.stx line 9">Exp</a> -&gt; <a href="#Module_372_378" id="Module_465_471" title="Defined at line 20">Module</a>
+    <a href="../../../../trans/static-semantics.stx#Mod_125_128" id="Mod_452_455" title="Referenced at ../../../../trans/static-semantics.stx line 10">Mod</a> : <a href="../Base-sig.stx#Exp_68_71" id="Exp_458_461" title="Defined at ../Base-sig.stx line 9">Exp</a> -&gt; <a href="#Module_372_378" id="Module_465_471" title="Defined at line 20">Module</a>
 </code></pre></td></tr></tbody></table></div>

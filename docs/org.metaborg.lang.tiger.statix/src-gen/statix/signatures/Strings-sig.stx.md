@@ -42,5 +42,5 @@ title: Strings-sig.stx
 <span class="keyword">signature</span>
 
   <span class="keyword">constructors</span>
-    String : <a href="#StrConst_85_93" id="StrConst_180_188" title="Defined at line 9">StrConst</a> -&gt; <a href="../Base-sig.stx#Exp_68_71" id="Exp_192_195" title="Defined at ../Base-sig.stx line 9">Exp</a>
+    <a href="../../../../trans/static-semantics.stx#String_11614_11620" id="String_171_177" title="Referenced at ../../../../trans/static-semantics.stx line 486">String</a> : <a href="#StrConst_85_93" id="StrConst_180_188" title="Defined at line 9">StrConst</a> -&gt; <a href="../Base-sig.stx#Exp_68_71" id="Exp_192_195" title="Defined at ../Base-sig.stx line 9">Exp</a>
 </code></pre></td></tr></tbody></table></div>
