@@ -39,6 +39,6 @@ title: Types-sig.stx
 <span class="keyword">signature</span>
 
   <span class="keyword">constructors</span>
-    <a href="../../../../trans/static-semantics.stx#TypeDec_4614_4621" id="TypeDec_126_133" title="Referenced at ../../../../trans/static-semantics.stx line 214">TypeDec</a> : <a href="../Base-sig.stx#ID_104_106" id="ID_136_138" title="Defined at ../Base-sig.stx line 13">ID</a> * <a href="../Base-sig.stx#Type_87_91" id="Type_141_145" title="Defined at ../Base-sig.stx line 11">Type</a> -&gt; <a href="../Base-sig.stx#Dec_60_63" id="Dec_149_152" title="Defined at ../Base-sig.stx line 8">Dec</a>
-    <a href="../../../../trans/static-semantics.stx#Tid_4833_4836" id="Tid_157_160" title="Referenced at ../../../../trans/static-semantics.stx line 224, 288, 293, 437, 447">Tid</a> : <a href="../Base-sig.stx#ID_104_106" id="ID_163_165" title="Defined at ../Base-sig.stx line 13">ID</a> -&gt; <a href="../Base-sig.stx#Type_87_91" id="Type_169_173" title="Defined at ../Base-sig.stx line 11">Type</a>
+    TypeDec : <a href="../Base-sig.stx#ID_104_106" id="ID_136_138" title="Defined at ../Base-sig.stx line 13">ID</a> * <a href="../Base-sig.stx#Type_87_91" id="Type_141_145" title="Defined at ../Base-sig.stx line 11">Type</a> -&gt; <a href="../Base-sig.stx#Dec_60_63" id="Dec_149_152" title="Defined at ../Base-sig.stx line 8">Dec</a>
+    Tid : <a href="../Base-sig.stx#ID_104_106" id="ID_163_165" title="Defined at ../Base-sig.stx line 13">ID</a> -&gt; <a href="../Base-sig.stx#Type_87_91" id="Type_169_173" title="Defined at ../Base-sig.stx line 11">Type</a>
 </code></pre></td></tr></tbody></table></div>

@@ -48,11 +48,11 @@ title: Base-sig.stx
     <a href="../Arrays-sig.stx#ID_135_137" id="ID_104_106" title="Referenced at ../Arrays-sig.stx line 15, 16; ../Functions-sig.stx line 17, 18, 19, 20; ../Records-sig.stx line 20, 20, 22, 23, 24; ../Types-sig.stx line 15, 16; ../Variables-sig.stx line 15, 16, 17; ../../../../trans/static-semantics.stx line 24, 25, 28, 29, 37, 40, 49, 50, 51, 73, 74, 92, 93, 95, 455, 470, 470">ID</a> = <span class="keyword">string</span>
 
   <span class="keyword">constructors</span>
-    <a href="../../../../trans/static-semantics.stx#Dec-Plhdr_12721_12730" id="Dec-Plhdr_136_145" title="Referenced at ../../../../trans/static-semantics.stx line 525">Dec-Plhdr</a> : <a href="#Dec_60_63" id="Dec_148_151" title="Defined at line 8">Dec</a>
-    <a href="../../../../trans/static-semantics.stx#Exp-Plhdr_12903_12912" id="Exp-Plhdr_156_165" title="Referenced at ../../../../trans/static-semantics.stx line 535">Exp-Plhdr</a> : <a href="#Exp_68_71" id="Exp_168_171" title="Defined at line 9">Exp</a>
-    <a href="../../../../trans/static-semantics.stx#LValue-Plhdr_12685_12697" id="LValue-Plhdr_176_188" title="Referenced at ../../../../trans/static-semantics.stx line 523">LValue-Plhdr</a> : <a href="#LValue_76_82" id="LValue_191_197" title="Defined at line 10">LValue</a>
-    <a href="../../../../trans/static-semantics.stx#Type-Plhdr_12752_12762" id="Type-Plhdr_202_212" title="Referenced at ../../../../trans/static-semantics.stx line 527">Type-Plhdr</a> : <a href="#Type_87_91" id="Type_215_219" title="Defined at line 11">Type</a>
-    <span id="Var-Plhdr_224_233" title="Not referenced locally, nor via imports">Var-Plhdr</span> : <a href="#Var_96_99" id="Var_236_239" title="Defined at line 12">Var</a>
+    Dec-Plhdr : <a href="#Dec_60_63" id="Dec_148_151" title="Defined at line 8">Dec</a>
+    Exp-Plhdr : <a href="#Exp_68_71" id="Exp_168_171" title="Defined at line 9">Exp</a>
+    LValue-Plhdr : <a href="#LValue_76_82" id="LValue_191_197" title="Defined at line 10">LValue</a>
+    Type-Plhdr : <a href="#Type_87_91" id="Type_215_219" title="Defined at line 11">Type</a>
+    Var-Plhdr : <a href="#Var_96_99" id="Var_236_239" title="Defined at line 12">Var</a>
 
 <span class="keyword">signature</span>
 

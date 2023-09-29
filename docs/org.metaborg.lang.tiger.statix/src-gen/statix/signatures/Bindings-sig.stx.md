@@ -38,11 +38,11 @@ title: Bindings-sig.stx
     <a href="#Declarations_140_152" id="Declarations_86_98" title="Referenced at line 12, 18">Declarations</a>
 
   <span class="keyword">constructors</span>
-    <span id="Declarations-Plhdr_119_137" title="Not referenced locally, nor via imports">Declarations-Plhdr</span> : <a href="#Declarations_86_98" id="Declarations_140_152" title="Defined at line 9">Declarations</a>
+    Declarations-Plhdr : <a href="#Declarations_86_98" id="Declarations_140_152" title="Defined at line 9">Declarations</a>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">constructors</span>
-    <a href="../../../../trans/static-semantics.stx#Let_3188_3191" id="Let_184_187" title="Referenced at ../../../../trans/static-semantics.stx line 169">Let</a> : <span class="keyword">list</span>(<a href="../Base-sig.stx#Dec_60_63" id="Dec_195_198" title="Defined at ../Base-sig.stx line 8">Dec</a>) * <span class="keyword">list</span>(<a href="../Base-sig.stx#Exp_68_71" id="Exp_207_210" title="Defined at ../Base-sig.stx line 9">Exp</a>) -&gt; <a href="../Base-sig.stx#Exp_68_71" id="Exp_215_218" title="Defined at ../Base-sig.stx line 9">Exp</a>
-    <span id="Declarations_223_235" title="Not referenced locally, nor via imports">Declarations</span> : <span class="keyword">list</span>(<a href="../Base-sig.stx#Dec_60_63" id="Dec_243_246" title="Defined at ../Base-sig.stx line 8">Dec</a>) -&gt; <a href="#Declarations_86_98" id="Declarations_251_263" title="Defined at line 9">Declarations</a>
+    Let : <span class="keyword">list</span>(<a href="../Base-sig.stx#Dec_60_63" id="Dec_195_198" title="Defined at ../Base-sig.stx line 8">Dec</a>) * <span class="keyword">list</span>(<a href="../Base-sig.stx#Exp_68_71" id="Exp_207_210" title="Defined at ../Base-sig.stx line 9">Exp</a>) -&gt; <a href="../Base-sig.stx#Exp_68_71" id="Exp_215_218" title="Defined at ../Base-sig.stx line 9">Exp</a>
+    Declarations : <span class="keyword">list</span>(<a href="../Base-sig.stx#Dec_60_63" id="Dec_243_246" title="Defined at ../Base-sig.stx line 8">Dec</a>) -&gt; <a href="#Declarations_86_98" id="Declarations_251_263" title="Defined at line 9">Declarations</a>
 </code></pre></td></tr></tbody></table></div>
