@@ -1,5 +1,7 @@
 ---
 title: Control-Flow-sig.stx
+hide:
+  - toc
 ---
 
 # `Control-Flow-sig.stx`

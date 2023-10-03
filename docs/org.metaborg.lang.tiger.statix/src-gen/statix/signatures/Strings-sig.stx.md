@@ -1,5 +1,7 @@
 ---
 title: Strings-sig.stx
+hide:
+  - toc
 ---
 
 # `Strings-sig.stx`

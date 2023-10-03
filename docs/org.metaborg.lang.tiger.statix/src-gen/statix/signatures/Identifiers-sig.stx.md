@@ -1,5 +1,7 @@
 ---
 title: Identifiers-sig.stx
+hide:
+  - toc
 ---
 
 # `Identifiers-sig.stx`

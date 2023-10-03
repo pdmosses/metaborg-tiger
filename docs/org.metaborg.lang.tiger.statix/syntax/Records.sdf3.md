@@ -1,5 +1,7 @@
 ---
 title: Records.sdf3
+hide:
+  - toc
 ---
 
 # `Records.sdf3`

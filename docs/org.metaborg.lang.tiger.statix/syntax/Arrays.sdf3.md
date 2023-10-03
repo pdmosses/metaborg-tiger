@@ -1,5 +1,7 @@
 ---
 title: Arrays.sdf3
+hide:
+  - toc
 ---
 
 # `Arrays.sdf3`

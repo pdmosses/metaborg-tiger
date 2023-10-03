@@ -1,5 +1,7 @@
 ---
 title: Control-Flow.sdf3
+hide:
+  - toc
 ---
 
 # `Control-Flow.sdf3`

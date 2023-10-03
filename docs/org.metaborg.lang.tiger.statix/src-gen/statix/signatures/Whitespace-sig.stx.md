@@ -1,5 +1,7 @@
 ---
 title: Whitespace-sig.stx
+hide:
+  - toc
 ---
 
 # `Whitespace-sig.stx`

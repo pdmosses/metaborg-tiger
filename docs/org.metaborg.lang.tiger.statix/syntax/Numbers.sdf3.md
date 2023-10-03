@@ -1,5 +1,7 @@
 ---
 title: Numbers.sdf3
+hide:
+  - toc
 ---
 
 # `Numbers.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: Types-sig.stx
+hide:
+  - toc
 ---
 
 # `Types-sig.stx`

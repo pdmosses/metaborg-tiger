@@ -1,5 +1,7 @@
 ---
 title: Tiger.sdf3
+hide:
+  - toc
 ---
 
 # `Tiger.sdf3`

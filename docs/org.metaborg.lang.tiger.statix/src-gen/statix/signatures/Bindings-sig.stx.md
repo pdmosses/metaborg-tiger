@@ -1,5 +1,7 @@
 ---
 title: Bindings-sig.stx
+hide:
+  - toc
 ---
 
 # `Bindings-sig.stx`

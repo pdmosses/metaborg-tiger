@@ -1,5 +1,7 @@
 ---
 title: Numbers-sig.stx
+hide:
+  - toc
 ---
 
 # `Numbers-sig.stx`

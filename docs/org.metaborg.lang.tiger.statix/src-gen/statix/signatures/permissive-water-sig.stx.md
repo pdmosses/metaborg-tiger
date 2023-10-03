@@ -1,5 +1,7 @@
 ---
 title: permissive-water-sig.stx
+hide:
+  - toc
 ---
 
 # `permissive-water-sig.stx`

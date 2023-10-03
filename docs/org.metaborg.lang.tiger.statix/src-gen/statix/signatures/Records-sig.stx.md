@@ -1,5 +1,7 @@
 ---
 title: Records-sig.stx
+hide:
+  - toc
 ---
 
 # `Records-sig.stx`

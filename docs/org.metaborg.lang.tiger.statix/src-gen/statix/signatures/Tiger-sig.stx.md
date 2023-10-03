@@ -1,5 +1,7 @@
 ---
 title: Tiger-sig.stx
+hide:
+  - toc
 ---
 
 # `Tiger-sig.stx`

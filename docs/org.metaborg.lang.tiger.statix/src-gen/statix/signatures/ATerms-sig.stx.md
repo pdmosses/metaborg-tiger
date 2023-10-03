@@ -1,5 +1,7 @@
 ---
 title: ATerms-sig.stx
+hide:
+  - toc
 ---
 
 # `ATerms-sig.stx`

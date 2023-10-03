@@ -1,5 +1,7 @@
 ---
 title: Arrays-sig.stx
+hide:
+  - toc
 ---
 
 # `Arrays-sig.stx`

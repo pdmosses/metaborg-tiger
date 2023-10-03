@@ -1,5 +1,7 @@
 ---
 title: Base.sdf3
+hide:
+  - toc
 ---
 
 # `Base.sdf3`

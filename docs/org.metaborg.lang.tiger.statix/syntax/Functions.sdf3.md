@@ -1,5 +1,7 @@
 ---
 title: Functions.sdf3
+hide:
+  - toc
 ---
 
 # `Functions.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: Functions-sig.stx
+hide:
+  - toc
 ---
 
 # `Functions-sig.stx`

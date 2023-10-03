@@ -1,5 +1,7 @@
 ---
 title: Bindings.sdf3
+hide:
+  - toc
 ---
 
 # `Bindings.sdf3`

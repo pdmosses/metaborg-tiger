@@ -1,5 +1,7 @@
 ---
 title: Variables-sig.stx
+hide:
+  - toc
 ---
 
 # `Variables-sig.stx`

@@ -1,5 +1,7 @@
 ---
 title: Variables.sdf3
+hide:
+  - toc
 ---
 
 # `Variables.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: ATerms.sdf3
+hide:
+  - toc
 ---
 
 # `ATerms.sdf3`

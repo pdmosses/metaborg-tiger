@@ -1,5 +1,7 @@
 ---
 title: Base-sig.stx
+hide:
+  - toc
 ---
 
 # `Base-sig.stx`
