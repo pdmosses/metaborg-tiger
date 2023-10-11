@@ -58,13 +58,13 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span class="cons_SortDecl"><a href="#Module_414_420" id="Module_372_378" title="Referenced at line 23, 28; ../../../../trans/static-semantics.stx line 8"><span class="token sort_OpId">Module</span></a></span>
+    <span class="cons_SortDecl"><a href="#Module_414_420" id="Module_372_378" title="Referenced at line 23, 28; ../../../../trans/static-semantics.stx line 8"><span class="token sort_ModuleID">Module</span></a></span>
 
   <span class="keyword">constructors</span>
-    <a href="../../../../trans/static-semantics.stx/#Module-Plhdr_12571_12583" id="Module-Plhdr_399_411" title="Referenced at ../../../../trans/static-semantics.stx line 517"><span class="token sort_OpId">Module-Plhdr</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="#Module_372_378" id="Module_414_420" title="Defined at line 20"><span class="token sort_OpId">Module</span></a></span>
+    <a href="../../../../trans/static-semantics.stx/#Module-Plhdr_12571_12583" id="Module-Plhdr_399_411" title="Referenced at ../../../../trans/static-semantics.stx line 517"><span class="token sort_ModuleID">Module-Plhdr</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="#Module_372_378" id="Module_414_420" title="Defined at line 20"><span class="token sort_ModuleID">Module</span></a></span>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">constructors</span>
-    <a href="../../../../trans/static-semantics.stx/#Mod_125_128" id="Mod_452_455" title="Referenced at ../../../../trans/static-semantics.stx line 10"><span class="token sort_OpId">Mod</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="../Base-sig.stx/#Exp_68_71" id="Exp_458_461" title="Defined at ../Base-sig.stx line 9"><span class="token sort_OpId">Exp</span></a></span> <span class="operator">-&gt;</span> <span class="cons_SimpleSort"><a href="#Module_372_378" id="Module_465_471" title="Defined at line 20"><span class="token sort_OpId">Module</span></a></span>
+    <a href="../../../../trans/static-semantics.stx/#Mod_125_128" id="Mod_452_455" title="Referenced at ../../../../trans/static-semantics.stx line 10"><span class="token sort_ModuleID">Mod</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="../Base-sig.stx/#Exp_68_71" id="Exp_458_461" title="Defined at ../Base-sig.stx line 9"><span class="token sort_ModuleID">Exp</span></a></span> <span class="operator">-&gt;</span> <span class="cons_SimpleSort"><a href="#Module_372_378" id="Module_465_471" title="Defined at line 20"><span class="token sort_ModuleID">Module</span></a></span>
 </code></pre></td></tr></tbody></table></div>

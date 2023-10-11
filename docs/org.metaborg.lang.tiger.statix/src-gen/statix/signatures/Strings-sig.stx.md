@@ -36,13 +36,13 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <a href="#StrConst_180_188" id="StrConst_85_93" title="Referenced at line 17"><span class="token sort_OpId">StrConst</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="StrChar_107_114" title="Not referenced locally, nor via imports"><span class="token sort_OpId">StrChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <a href="#StrConst_180_188" id="StrConst_85_93" title="Referenced at line 17"><span class="token sort_ModuleID">StrConst</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="StrChar_107_114" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">StrChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
 
   <span class="keyword">constructors</span>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">constructors</span>
-    <a href="../../../../trans/static-semantics.stx/#String_11614_11620" id="String_171_177" title="Referenced at ../../../../trans/static-semantics.stx line 486"><span class="token sort_OpId">String</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="#StrConst_85_93" id="StrConst_180_188" title="Defined at line 9"><span class="token sort_OpId">StrConst</span></a></span> <span class="operator">-&gt;</span> <span class="cons_SimpleSort"><a href="../Base-sig.stx/#Exp_68_71" id="Exp_192_195" title="Defined at ../Base-sig.stx line 9"><span class="token sort_OpId">Exp</span></a></span>
+    <a href="../../../../trans/static-semantics.stx/#String_11614_11620" id="String_171_177" title="Referenced at ../../../../trans/static-semantics.stx line 486"><span class="token sort_ModuleID">String</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="#StrConst_85_93" id="StrConst_180_188" title="Defined at line 9"><span class="token sort_ModuleID">StrConst</span></a></span> <span class="operator">-&gt;</span> <span class="cons_SimpleSort"><a href="../Base-sig.stx/#Exp_68_71" id="Exp_192_195" title="Defined at ../Base-sig.stx line 9"><span class="token sort_ModuleID">Exp</span></a></span>
 </code></pre></td></tr></tbody></table></div>

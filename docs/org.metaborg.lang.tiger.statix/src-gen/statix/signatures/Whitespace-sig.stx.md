@@ -36,11 +36,11 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span id="CommentChar_66_77" title="Not referenced locally, nor via imports"><span class="token sort_OpId">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="InsideComment_91_104" title="Not referenced locally, nor via imports"><span class="token sort_OpId">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="SingleLineComment_118_135" title="Not referenced locally, nor via imports"><span class="token sort_OpId">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="NewLineEOF_149_159" title="Not referenced locally, nor via imports"><span class="token sort_OpId">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="EOF_173_176" title="Not referenced locally, nor via imports"><span class="token sort_OpId">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="CommentChar_66_77" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="InsideComment_91_104" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="SingleLineComment_118_135" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="NewLineEOF_149_159" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="EOF_173_176" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
 
   <span class="keyword">constructors</span>
 

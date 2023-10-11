@@ -35,10 +35,10 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span id="WATER_72_77" title="Not referenced locally, nor via imports"><span class="token sort_OpId">WATER</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="WATERTOKEN_91_101" title="Not referenced locally, nor via imports"><span class="token sort_OpId">WATERTOKEN</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="WATERTOKENSTART_115_130" title="Not referenced locally, nor via imports"><span class="token sort_OpId">WATERTOKENSTART</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="WATERTOKENSEPARATOR_144_163" title="Not referenced locally, nor via imports"><span class="token sort_OpId">WATERTOKENSEPARATOR</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="WATER_72_77" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">WATER</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="WATERTOKEN_91_101" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">WATERTOKEN</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="WATERTOKENSTART_115_130" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">WATERTOKENSTART</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span id="WATERTOKENSEPARATOR_144_163" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">WATERTOKENSEPARATOR</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
 
   <span class="keyword">constructors</span>
 
