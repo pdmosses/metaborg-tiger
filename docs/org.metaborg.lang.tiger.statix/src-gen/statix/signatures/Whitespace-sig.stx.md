@@ -29,18 +29,18 @@ hide:
 17
 18
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger-sig.stx/#signatures/Whitespace-sig_61_86" id="signatures/Whitespace-sig_7_32" title="Referenced at ../Tiger-sig.stx line 5"><span class="token sort_ModuleID">signatures/Whitespace-sig</span></a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger-sig.stx/#signatures/Whitespace-sig_61_86" id="signatures/Whitespace-sig_7_32" title="Referenced at ../Tiger-sig.stx line 5"><span class="token sort_Id">signatures/Whitespace-sig</span></a>
 
 <span class="keyword">imports</span>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span class="cons_SortAlias"><span id="CommentChar_66_77" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="InsideComment_91_104" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="SingleLineComment_118_135" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="NewLineEOF_149_159" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="EOF_173_176" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="CommentChar_66_77" title="Not referenced locally, nor via imports"><span class="token sort_Id">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="InsideComment_91_104" title="Not referenced locally, nor via imports"><span class="token sort_Id">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="SingleLineComment_118_135" title="Not referenced locally, nor via imports"><span class="token sort_Id">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="NewLineEOF_149_159" title="Not referenced locally, nor via imports"><span class="token sort_Id">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="EOF_173_176" title="Not referenced locally, nor via imports"><span class="token sort_Id">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
 
   <span class="keyword">constructors</span>
 
