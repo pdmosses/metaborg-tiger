@@ -48,7 +48,7 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <a href="#IntConst_156_164" id="IntConst_85_93" title="Referenced at line 16"><span class="token sort_ModuleID">IntConst</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span class="cons_SortAlias"><a href="#IntConst_156_164" id="IntConst_85_93" title="Referenced at line 16"><span class="token sort_ModuleID">IntConst</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
 
   <span class="keyword">constructors</span>
 

@@ -36,8 +36,8 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <a href="#StrConst_180_188" id="StrConst_85_93" title="Referenced at line 17"><span class="token sort_ModuleID">StrConst</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="StrChar_107_114" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">StrChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span class="cons_SortAlias"><a href="#StrConst_180_188" id="StrConst_85_93" title="Referenced at line 17"><span class="token sort_ModuleID">StrConst</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="StrChar_107_114" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">StrChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
 
   <span class="keyword">constructors</span>
 

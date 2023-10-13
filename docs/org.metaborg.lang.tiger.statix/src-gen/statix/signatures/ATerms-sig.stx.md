@@ -42,10 +42,10 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <a href="#Cons_268_272" id="Cons_62_66" title="Referenced at line 22"><span class="token sort_ModuleID">Cons</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <a href="#Int_246_249" id="Int_80_83" title="Referenced at line 21"><span class="token sort_ModuleID">Int</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <a href="#String_221_227" id="String_97_103" title="Referenced at line 20"><span class="token sort_ModuleID">String</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span>
-    <span id="StringChar_117_127" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">StringChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span>
+    <span class="cons_SortAlias"><a href="#Cons_268_272" id="Cons_62_66" title="Referenced at line 22"><span class="token sort_ModuleID">Cons</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><a href="#Int_246_249" id="Int_80_83" title="Referenced at line 21"><span class="token sort_ModuleID">Int</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><a href="#String_221_227" id="String_97_103" title="Referenced at line 20"><span class="token sort_ModuleID">String</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="StringChar_117_127" title="Not referenced locally, nor via imports"><span class="token sort_ModuleID">StringChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
     <span class="cons_SortDecl"><a href="#Term_179_183" id="Term_141_145" title="Referenced at line 15, 20, 21, 22, 22, 23, 23, 24, 24"><span class="token sort_ModuleID">Term</span></a></span>
 
   <span class="keyword">constructors</span>
