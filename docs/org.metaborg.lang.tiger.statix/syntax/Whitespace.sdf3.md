@@ -43,30 +43,30 @@ hide:
 31
 32
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger.sdf3#Whitespace_35_45" id="Whitespace_7_17" title="Referenced at ../Tiger.sdf3 line 4">Whitespace</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger.sdf3/#Whitespace_4_9" id="Whitespace_1_8" title="Referenced at ../Tiger.sdf3 line 4">Whitespace</a>
 
 <span class="keyword">lexical sorts</span>
-  <a href="#CommentChar_486_497" id="CommentChar_35_46" title="Referenced at line 23">CommentChar</a> <a href="#InsideComment_191_204" id="InsideComment_47_60" title="Referenced at line 10">InsideComment</a> <a href="#SingleLineComment_286_303" id="SingleLineComment_61_78" title="Referenced at line 13">SingleLineComment</a> <a href="#NewLineEOF_340_350" id="NewLineEOF_79_89" title="Referenced at line 14">NewLineEOF</a> <a href="#EOF_511_514" id="EOF_90_93" title="Referenced at line 24">EOF</a>
+  <a href="#CommentChar_12_20" id="CommentChar_4_3" title="Referenced at line 12, 23">CommentChar</a> <a href="#InsideComment_10_25" id="InsideComment_4_15" title="Referenced at line 10">InsideComment</a> <a href="#SingleLineComment_13_20" id="SingleLineComment_4_29" title="Referenced at line 13">SingleLineComment</a> <a href="#NewLineEOF_14_37" id="NewLineEOF_4_47" title="Referenced at line 14">NewLineEOF</a> <a href="#EOF_16_20" id="EOF_4_58" title="Referenced at line 16, 24">EOF</a>
   
 <span class="keyword">lexical syntax</span>
 
   <span class="keyword">LAYOUT</span>         = [\ \t\n\r]
-  <a href="#CommentChar_486_497" id="CommentChar_145_156" title="Referenced at line 23">CommentChar</a>    = [\*]
-  <span class="keyword">LAYOUT</span>         = <span class="cons_Lit">"/*"</span> <a href="#InsideComment_47_60" id="InsideComment_191_204" title="Defined at line 4, 11, 12">InsideComment</a>* <span class="cons_Lit">"*/"</span>
-  <a href="#InsideComment_191_204" id="InsideComment_213_226" title="Referenced at line 10">InsideComment</a>  = ~[\*]
-  <a href="#InsideComment_191_204" id="InsideComment_238_251" title="Referenced at line 10">InsideComment</a>  = <a href="#CommentChar_35_46" id="CommentChar_255_266" title="Defined at line 4, 9">CommentChar</a>
-  <span class="keyword">LAYOUT</span>         = <a href="#SingleLineComment_61_78" id="SingleLineComment_286_303" title="Defined at line 4, 14">SingleLineComment</a>
-  <a href="#SingleLineComment_286_303" id="SingleLineComment_306_323" title="Referenced at line 13">SingleLineComment</a> = <span class="cons_Lit">"//"</span> ~[\n\r]* <a href="#NewLineEOF_79_89" id="NewLineEOF_340_350" title="Defined at line 4, 15, 16">NewLineEOF</a>
-  <a href="#NewLineEOF_340_350" id="NewLineEOF_353_363" title="Referenced at line 14">NewLineEOF</a>     = [\n\r]
-  <a href="#NewLineEOF_340_350" id="NewLineEOF_379_389" title="Referenced at line 14">NewLineEOF</a>     = <a href="#EOF_90_93" id="EOF_396_399" title="Defined at line 4, 17">EOF</a>
-  <a href="#EOF_511_514" id="EOF_402_405" title="Referenced at line 24">EOF</a>            =
+  <a href="#CommentChar_12_20" id="CommentChar_9_3" title="Referenced at line 12, 23">CommentChar</a>    = [\*]
+  <span class="keyword">LAYOUT</span>         = <span class="cons_Lit">"/*"</span> <a href="#InsideComment_4_15" id="InsideComment_10_25" title="Defined at line 4, 11, 12">InsideComment</a>* <span class="cons_Lit">"*/"</span>
+  <a href="#InsideComment_10_25" id="InsideComment_11_3" title="Referenced at line 10">InsideComment</a>  = ~[\*]
+  <a href="#InsideComment_10_25" id="InsideComment_12_3" title="Referenced at line 10">InsideComment</a>  = <a href="#CommentChar_4_3" id="CommentChar_12_20" title="Defined at line 4, 9">CommentChar</a>
+  <span class="keyword">LAYOUT</span>         = <a href="#SingleLineComment_4_29" id="SingleLineComment_13_20" title="Defined at line 4, 14">SingleLineComment</a>
+  <a href="#SingleLineComment_13_20" id="SingleLineComment_14_3" title="Referenced at line 13">SingleLineComment</a> = <span class="cons_Lit">"//"</span> ~[\n\r]* <a href="#NewLineEOF_4_47" id="NewLineEOF_14_37" title="Defined at line 4, 15, 16">NewLineEOF</a>
+  <a href="#NewLineEOF_14_37" id="NewLineEOF_15_3" title="Referenced at line 14">NewLineEOF</a>     = [\n\r]
+  <a href="#NewLineEOF_14_37" id="NewLineEOF_16_3" title="Referenced at line 14">NewLineEOF</a>     = <a href="#EOF_4_58" id="EOF_16_20" title="Defined at line 4, 17">EOF</a>
+  <a href="#EOF_16_20" id="EOF_17_3" title="Referenced at line 16, 24">EOF</a>            =
 
 <span class="keyword">lexical restrictions</span>
 
   <span class="layout">// Ensure greedy matching for lexicals</span>
 
-  <a href="#CommentChar_35_46" id="CommentChar_486_497" title="Defined at line 4, 9">CommentChar</a>   -/- [\/]
-  <a href="#EOF_90_93" id="EOF_511_514" title="Defined at line 4, 17">EOF</a> -/- ~[]
+  <a href="#CommentChar_4_3" id="CommentChar_23_3" title="Defined at line 4, 9">CommentChar</a>   -/- [\/]
+  <a href="#EOF_4_58" id="EOF_24_3" title="Defined at line 4, 17">EOF</a> -/- ~[]
 
 <span class="keyword">context-free restrictions</span>
 
@@ -77,3 +77,12 @@ hide:
   <span class="keyword">LAYOUT</span>? -/- [\/].[\*]
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

@@ -32,26 +32,35 @@ hide:
 20
 21
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <span id="ATerms_7_13" title="Not referenced locally, nor via imports">ATerms</span>
+<td class="code"><pre><code><span class="keyword">module</span> <span id="ATerms_1_8" title="Not referenced">ATerms</span>
 
-<span class="keyword">lexical sorts</span> <a href="#Cons_361_365" id="Cons_29_33" title="Referenced at line 19">Cons</a> <a href="#Int_337_340" id="Int_34_37" title="Referenced at line 18">Int</a> <a href="#String_310_316" id="String_38_44" title="Referenced at line 17">String</a> <a href="#StringChar_177_187" id="StringChar_45_55" title="Referenced at line 10">StringChar</a>
+<span class="keyword">lexical sorts</span> <a href="#Cons_19_19" id="Cons_3_15" title="Referenced at line 19">Cons</a> <a href="#Int_18_19" id="Int_3_20" title="Referenced at line 18">Int</a> <a href="#String_8_17" id="String_3_24" title="Referenced at line 8, 17">String</a> <a href="#StringChar_10_22" id="StringChar_3_31" title="Referenced at line 10">StringChar</a>
 
 <span class="keyword">lexical syntax</span>
 
-   <a href="#Cons_361_365" id="Cons_76_80" title="Referenced at line 19">Cons</a>       = [<span class="cons_Regular">a</span>-<span class="cons_Regular">z</span><span class="cons_Regular">A</span>-<span class="cons_Regular">Z</span>][<span class="cons_Regular">a</span>-<span class="cons_Regular">z</span><span class="cons_Regular">A</span>-<span class="cons_Regular">Z</span><span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]*
-   <a href="#Cons_361_365" id="Cons_113_117" title="Referenced at line 19">Cons</a>       = <a href="#String_38_44" id="String_126_132" title="Defined at line 3, 10">String</a>
-   <a href="#Int_337_340" id="Int_136_139" title="Referenced at line 18">Int</a>        = [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]+
-   <a href="#String_310_316" id="String_159_165" title="Referenced at line 17">String</a>     = <span class="cons_Lit">"\""</span> <a href="#StringChar_45_55" id="StringChar_177_187" title="Defined at line 3, 11, 12">StringChar</a>* <span class="cons_Lit">"\""</span>
-   <a href="#StringChar_177_187" id="StringChar_197_207" title="Referenced at line 10">StringChar</a> = ~[\"\\]
-   <a href="#StringChar_177_187" id="StringChar_221_231" title="Referenced at line 10">StringChar</a> = <span class="cons_Lit">"\\"</span> [\"\\]
+   <a href="#Cons_19_19" id="Cons_7_4" title="Referenced at line 19">Cons</a>       = [<span class="cons_Regular">a</span>-<span class="cons_Regular">z</span><span class="cons_Regular">A</span>-<span class="cons_Regular">Z</span>][<span class="cons_Regular">a</span>-<span class="cons_Regular">z</span><span class="cons_Regular">A</span>-<span class="cons_Regular">Z</span><span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]*
+   <a href="#Cons_19_19" id="Cons_8_4" title="Referenced at line 19">Cons</a>       = <a href="#String_3_24" id="String_8_17" title="Defined at line 3, 10">String</a>
+   <a href="#Int_18_19" id="Int_9_4" title="Referenced at line 18">Int</a>        = [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]+
+   <a href="#String_8_17" id="String_10_4" title="Referenced at line 8, 17">String</a>     = <span class="cons_Lit">"\""</span> <a href="#StringChar_3_31" id="StringChar_10_22" title="Defined at line 3, 11, 12">StringChar</a>* <span class="cons_Lit">"\""</span>
+   <a href="#StringChar_10_22" id="StringChar_11_4" title="Referenced at line 10">StringChar</a> = ~[\"\\]
+   <a href="#StringChar_10_22" id="StringChar_12_4" title="Referenced at line 10">StringChar</a> = <span class="cons_Lit">"\\"</span> [\"\\]
 
-<span class="keyword">context-free sorts</span> <a href="#Term_437_441" id="Term_266_270" title="Referenced at line 21">Term</a>
+<span class="keyword">context-free sorts</span> <a href="#Term_19_27" id="Term_14_20" title="Referenced at line 19, 20, 21">Term</a>
 <span class="keyword">context-free syntax</span>
 
-   <a href="#Term_437_441" id="Term_295_299" title="Referenced at line 21">Term</a>.<span class="cons_Constructor"><span id="Str_300_303" title="Not referenced locally, nor via imports">Str</span></span>   = &lt;&lt;<a href="#String_38_44" id="String_310_316" title="Defined at line 3, 10">String</a>&gt;&gt;
-   <a href="#Term_437_441" id="Term_322_326" title="Referenced at line 21">Term</a>.<span class="cons_Constructor"><span id="Int_327_330" title="Not referenced locally, nor via imports">Int</span></span>   = &lt;&lt;<a href="#Int_34_37" id="Int_337_340" title="Defined at line 3, 9">Int</a>&gt;&gt;
-   <a href="#Term_437_441" id="Term_346_350" title="Referenced at line 21">Term</a>.<span class="cons_Constructor"><span id="App_351_354" title="Not referenced locally, nor via imports">App</span></span>   = &lt;&lt;<a href="#Cons_29_33" id="Cons_361_365" title="Defined at line 3, 7, 8">Cons</a>&gt;<span class="cons_String">(</span>&lt;{<a href="#Term_266_270" id="Term_369_373" title="Defined at line 14, 17, 18, 19, 20, 21">Term</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">)</span>&gt;
-   <a href="#Term_437_441" id="Term_386_390" title="Referenced at line 21">Term</a>.<span class="cons_Constructor"><span id="List_391_395" title="Not referenced locally, nor via imports">List</span></span>  = &lt;<span class="cons_String">[</span>&lt;{<a href="#Term_266_270" id="Term_403_407" title="Defined at line 14, 17, 18, 19, 20, 21">Term</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">]</span>&gt;
-   <a href="#Term_437_441" id="Term_420_424" title="Referenced at line 21">Term</a>.<span class="cons_Constructor"><span id="Tuple_425_430" title="Not referenced locally, nor via imports">Tuple</span></span> = &lt;<span class="cons_String">(</span>&lt;{<a href="#Term_266_270" id="Term_437_441" title="Defined at line 14, 17, 18, 19, 20, 21">Term</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">)</span>&gt;
+   <a href="#Term_19_27" id="Term_17_4" title="Referenced at line 19, 20, 21">Term</a>.<span class="cons_Constructor"><span id="Str_17_9" title="Not referenced">Str</span></span>   = &lt;&lt;<a href="#String_3_24" id="String_17_19" title="Defined at line 3, 10">String</a>&gt;&gt;
+   <a href="#Term_19_27" id="Term_18_4" title="Referenced at line 19, 20, 21">Term</a>.<span class="cons_Constructor"><span id="Int_18_9" title="Not referenced">Int</span></span>   = &lt;&lt;<a href="#Int_3_20" id="Int_18_19" title="Defined at line 3, 9">Int</a>&gt;&gt;
+   <a href="#Term_19_27" id="Term_19_4" title="Referenced at line 19, 20, 21">Term</a>.<span class="cons_Constructor"><span id="App_19_9" title="Not referenced">App</span></span>   = &lt;&lt;<a href="#Cons_3_15" id="Cons_19_19" title="Defined at line 3, 7, 8">Cons</a>&gt;<span class="cons_String">(</span>&lt;{<a href="#Term_14_20" id="Term_19_27" title="Defined at line 14, 17, 18, 19, 20, 21">Term</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">)</span>&gt;
+   <a href="#Term_19_27" id="Term_20_4" title="Referenced at line 19, 20, 21">Term</a>.<span class="cons_Constructor"><span id="List_20_9" title="Not referenced">List</span></span>  = &lt;<span class="cons_String">[</span>&lt;{<a href="#Term_14_20" id="Term_20_21" title="Defined at line 14, 17, 18, 19, 20, 21">Term</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">]</span>&gt;
+   <a href="#Term_19_27" id="Term_21_4" title="Referenced at line 19, 20, 21">Term</a>.<span class="cons_Constructor"><span id="Tuple_21_9" title="Not referenced">Tuple</span></span> = &lt;<span class="cons_String">(</span>&lt;{<a href="#Term_14_20" id="Term_21_21" title="Defined at line 14, 17, 18, 19, 20, 21">Term</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">)</span>&gt;
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

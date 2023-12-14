@@ -39,33 +39,42 @@ hide:
 27
 28
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger.sdf3#Strings_157_164" id="Strings_7_14" title="Referenced at ../Tiger.sdf3 line 11">Strings</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger.sdf3/#Strings_11_9" id="Strings_1_8" title="Referenced at ../Tiger.sdf3 line 11">Strings</a>
 
-<span class="keyword">imports</span> <a href="../Base.sdf3#Base_7_11" id="Base_24_28" title="Defined at ../Base.sdf3 line 1">Base</a>
+<span class="keyword">imports</span> <a href="../Base.sdf3/#Base_1_8" id="Base_3_9" title="Defined at ../Base.sdf3 line 1">Base</a>
 
-<span class="keyword">lexical sorts</span> <a href="#StrConst_505_513" id="StrConst_44_52" title="Referenced at line 28">StrConst</a> <a href="#StrChar_96_103" id="StrChar_53_60" title="Referenced at line 9">StrChar</a>
+<span class="keyword">lexical sorts</span> <a href="#StrConst_28_16" id="StrConst_5_15" title="Referenced at line 28">StrConst</a> <a href="#StrChar_9_19" id="StrChar_5_24" title="Referenced at line 9">StrChar</a>
 
 <span class="keyword">lexical syntax</span>
 
-  <a href="#StrConst_505_513" id="StrConst_80_88" title="Referenced at line 28">StrConst</a> = <span class="cons_Lit">"\""</span> <a href="#StrChar_53_60" id="StrChar_96_103" title="Defined at line 5, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24">StrChar</a>* <span class="cons_Lit">"\""</span>
-  <a href="#StrChar_96_103" id="StrChar_112_119" title="Referenced at line 9">StrChar</a> = ~[\\\"\r\n]
-  <a href="#StrChar_96_103" id="StrChar_136_143" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">a</span>]
-  <a href="#StrChar_96_103" id="StrChar_157_164" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">b</span>]
-  <a href="#StrChar_96_103" id="StrChar_178_185" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">f</span>]
-  <a href="#StrChar_96_103" id="StrChar_199_206" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">n</span>]
-  <a href="#StrChar_96_103" id="StrChar_220_227" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">r</span>]
-  <a href="#StrChar_96_103" id="StrChar_241_248" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">t</span>]
-  <a href="#StrChar_96_103" id="StrChar_262_269" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">v</span>]
-  <a href="#StrChar_96_103" id="StrChar_283_290" title="Referenced at line 9">StrChar</a> = [\\] [\^] [<span class="cons_Regular">A</span>-<span class="cons_Regular">Z</span>]
-  <a href="#StrChar_96_103" id="StrChar_311_318" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]
-  <a href="#StrChar_96_103" id="StrChar_346_353" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">x</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>]
-  <a href="#StrChar_96_103" id="StrChar_391_398" title="Referenced at line 9">StrChar</a> = [\\] [\\]
-  <a href="#StrChar_96_103" id="StrChar_413_420" title="Referenced at line 9">StrChar</a> = [\\] [\"]
+  <a href="#StrConst_28_16" id="StrConst_9_3" title="Referenced at line 28">StrConst</a> = <span class="cons_Lit">"\""</span> <a href="#StrChar_5_24" id="StrChar_9_19" title="Defined at line 5, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24">StrChar</a>* <span class="cons_Lit">"\""</span>
+  <a href="#StrChar_9_19" id="StrChar_10_3" title="Referenced at line 9">StrChar</a> = ~[\\\"\r\n]
+  <a href="#StrChar_9_19" id="StrChar_11_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">a</span>]
+  <a href="#StrChar_9_19" id="StrChar_12_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">b</span>]
+  <a href="#StrChar_9_19" id="StrChar_13_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">f</span>]
+  <a href="#StrChar_9_19" id="StrChar_14_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">n</span>]
+  <a href="#StrChar_9_19" id="StrChar_15_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">r</span>]
+  <a href="#StrChar_9_19" id="StrChar_16_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">t</span>]
+  <a href="#StrChar_9_19" id="StrChar_17_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">v</span>]
+  <a href="#StrChar_9_19" id="StrChar_18_3" title="Referenced at line 9">StrChar</a> = [\\] [\^] [<span class="cons_Regular">A</span>-<span class="cons_Regular">Z</span>]
+  <a href="#StrChar_9_19" id="StrChar_19_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]
+  <a href="#StrChar_9_19" id="StrChar_20_3" title="Referenced at line 9">StrChar</a> = [\\] [<span class="cons_Regular">x</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>]
+  <a href="#StrChar_9_19" id="StrChar_21_3" title="Referenced at line 9">StrChar</a> = [\\] [\\]
+  <a href="#StrChar_9_19" id="StrChar_22_3" title="Referenced at line 9">StrChar</a> = [\\] [\"]
 
-  <a href="#StrChar_96_103" id="StrChar_436_443" title="Referenced at line 9">StrChar</a> = [\\] [\ \t\r\n]+ [\\]
+  <a href="#StrChar_9_19" id="StrChar_24_3" title="Referenced at line 9">StrChar</a> = [\\] [\ \t\r\n]+ [\\]
 
 <span class="keyword">context-free syntax</span>
 
-  <span id="Exp_492_495" title="Not referenced locally, nor via imports">Exp</span>.<span class="cons_Constructor"><span id="String_496_502" title="Not referenced locally, nor via imports">String</span></span> = <a href="#StrConst_44_52" id="StrConst_505_513" title="Defined at line 5, 9">StrConst</a>
+  <span id="Exp_28_3" title="Not referenced">Exp</span>.<span class="cons_Constructor"><span id="String_28_7" title="Not referenced">String</span></span> = <a href="#StrConst_5_15" id="StrConst_28_16" title="Defined at line 5, 9">StrConst</a>
 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>
