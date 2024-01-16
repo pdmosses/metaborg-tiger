@@ -36,11 +36,11 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span class="cons_SortAlias"><span id="CommentChar_8_5" title="Not referenced"><span class="token sort_Id">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="InsideComment_9_5" title="Not referenced"><span class="token sort_Id">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="SingleLineComment_10_5" title="Not referenced"><span class="token sort_Id">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="NewLineEOF_11_5" title="Not referenced"><span class="token sort_Id">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="EOF_12_5" title="Not referenced"><span class="token sort_Id">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><span id="CommentChar_8_5" title="Not referenced"><span class="token sort_Id">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="InsideComment_9_5" title="Not referenced"><span class="token sort_Id">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="SingleLineComment_10_5" title="Not referenced"><span class="token sort_Id">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="NewLineEOF_11_5" title="Not referenced"><span class="token sort_Id">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="EOF_12_5" title="Not referenced"><span class="token sort_Id">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
 
   <span class="keyword">constructors</span>
 

@@ -42,10 +42,10 @@ hide:
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span class="cons_SortAlias"><a href="#Cons_22_11" id="Cons_8_5" title="Referenced at line 22"><span class="token sort_Id">Cons</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><a href="#Int_21_11" id="Int_9_5" title="Referenced at line 21"><span class="token sort_Id">Int</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><a href="#String_20_11" id="String_10_5" title="Referenced at line 20"><span class="token sort_Id">String</span></a> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
-    <span class="cons_SortAlias"><span id="StringChar_11_5" title="Not referenced"><span class="token sort_Id">StringChar</span></span> <span class="operator">=</span> <span class="cons_StringSort">string</span></span>
+    <span class="cons_SortAlias"><a href="#Cons_22_11" id="Cons_8_5" title="Referenced at line 22"><span class="token sort_Id">Cons</span></a> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><a href="#Int_21_11" id="Int_9_5" title="Referenced at line 21"><span class="token sort_Id">Int</span></a> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><a href="#String_20_11" id="String_10_5" title="Referenced at line 20"><span class="token sort_Id">String</span></a> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="StringChar_11_5" title="Not referenced"><span class="token sort_Id">StringChar</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
     <span class="cons_SortDecl"><a href="#Term_15_18" id="Term_12_5" title="Referenced at line 15, 20, 21, 22, 23, 24"><span class="token sort_Id">Term</span></a></span>
 
   <span class="keyword">constructors</span>

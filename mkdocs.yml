@@ -1,4 +1,4 @@
-site_name: Tiger
+site_name: metaborg-tiger
 site_url: https://pdmosses.github.io/metaborg-tiger/
 repo_name: pdmosses/metaborg-tiger
 repo_url: https://github.com/pdmosses/metaborg-tiger/
@@ -48,5 +48,9 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/metaborg.css
+  - stylesheets/modal.css
   - stylesheets/sdf3.css
   - stylesheets/stx.css
+
+extra_javascript:
+  - javascripts/modal.js
