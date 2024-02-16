@@ -20,15 +20,15 @@ hide:
 8
 9
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="Base_1_8" title="Multi-file references" data-urls="../Arrays.sdf3/#Base_3_9 line 3; ../Bindings.sdf3/#Base_3_9 line 3; ../Control-Flow.sdf3/#Base_3_9 line 3; ../Functions.sdf3/#Base_3_9 line 3; ../Identifiers.sdf3/#Base_3_9 line 3; ../Numbers.sdf3/#Base_3_9 line 3; ../Records.sdf3/#Base_3_9 line 3; ../Strings.sdf3/#Base_3_9 line 3; ../Tiger.sdf3/#Base_3_9 line 3; ../Types.sdf3/#Base_3_9 line 3; ../Variables.sdf3/#Base_3_9 line 3">Base</button>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="Base_1_8" title="a definition with multiple references" data-urls="../Arrays.sdf3/#Base line 3_9; ../Bindings.sdf3/#Base line 3_9; ../Control-Flow.sdf3/#Base line 3_9; ../Functions.sdf3/#Base line 3_9; ../Identifiers.sdf3/#Base line 3_9; ../Numbers.sdf3/#Base line 3_9; ../Records.sdf3/#Base line 3_9; ../Strings.sdf3/#Base line 3_9; ../Tiger.sdf3/#Base line 3_9; ../Types.sdf3/#Base line 3_9; ../Variables.sdf3/#Base line 3_9">Base</button>
 
-<span class="keyword">sorts</span> <a href="../Bindings.sdf3/#Dec_11_9" id="Dec_3_7" title="Referenced at ../Bindings.sdf3 line 11, 18">Dec</a> <span id="Exp_3_11" title="Not referenced">Exp</span> <a href="../Control-Flow.sdf3/#LValue_37_18" id="LValue_3_15" title="Referenced at ../Control-Flow.sdf3 line 37">LValue</a>
+<span class="keyword">sorts</span> <button class="modal-open" id="Dec_3_7" title="a definition with multiple references" data-urls="../Bindings.sdf3/#Dec line 11_9, 18_20">Dec</button> <span id="Exp_3_11" title="a definition with no references">Exp</span> <a href="../Control-Flow.sdf3/#LValue_37_18" id="LValue_3_15" title="a definition with a single reference">LValue</a>
 
-<span class="keyword">sorts</span> <button class="modal-open" id="Type_5_7" title="Multi-file references" data-urls="../Functions.sdf3/#Type_14_38 line 14, 18; ../Variables.sdf3/#Type_8_29 line 8">Type</button>
+<span class="keyword">sorts</span> <button class="modal-open" id="Type_5_7" title="a definition with multiple references" data-urls="../Functions.sdf3/#Type line 14_38, 18_24; ../Variables.sdf3/#Type line 8_29">Type</button>
 
-<span class="keyword">sorts</span> <a href="../Control-Flow.sdf3/#Var_31_10" id="Var_7_7" title="Referenced at ../Control-Flow.sdf3 line 31">Var</a>
+<span class="keyword">sorts</span> <a href="../Control-Flow.sdf3/#Var_31_10" id="Var_7_7" title="a definition with a single reference">Var</a>
 
-<span class="keyword">lexical sorts</span> <button class="modal-open" id="ID_9_15" title="Multi-file references" data-urls="../Arrays.sdf3/#ID_8_17 line 8, 10; ../Functions.sdf3/#ID_9_15 line 9, 14, 18, 20; ../Records.sdf3/#ID_16_19 line 16, 20, 22, 24; ../Types.sdf3/#ID_8_24 line 8, 13; ../Variables.sdf3/#ID_8_22 line 8, 10, 12">ID</button>
+<span class="keyword">lexical sorts</span> <button class="modal-open" id="ID_9_15" title="a definition with multiple references" data-urls="../Arrays.sdf3/#ID line 8_17, 10_29; ../Functions.sdf3/#ID line 9_15, 14_15, 18_17, 20_16; ../Records.sdf3/#ID line 16_19, 16_26, 20_18, 22_27, 24_32; ../Types.sdf3/#ID line 8_24, 13_14; ../Variables.sdf3/#ID line 8_22, 10_28, 12_13">ID</button>
 
 </code></pre></td></tr></tbody></table></div>
 

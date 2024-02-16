@@ -39,34 +39,34 @@ hide:
 27
 28
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../../../trans/static-semantics.stx/#signatures/Tiger-sig_4_3" id="signatures/Tiger-sig_1_8" title="Referenced at ../../../../trans/static-semantics.stx line 4"><span class="token sort_Id">signatures/Tiger-sig</span></a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../../../trans/static-semantics.stx/#signatures/Tiger-sig_4_3" id="signatures/Tiger-sig_1_8" title="a definition with a single reference"><span class="token sort_Id">signatures/Tiger-sig</span></a>
 
 <span class="keyword">imports</span>
-  <a href="../Base-sig.stx/#signatures/Base-sig_1_8" id="signatures/Base-sig_4_3" title="Defined at ../Base-sig.stx line 1"><span class="token sort_Id">signatures/Base-sig</span></a>
-  <a href="../Whitespace-sig.stx/#signatures/Whitespace-sig_1_8" id="signatures/Whitespace-sig_5_3" title="Defined at ../Whitespace-sig.stx line 1"><span class="token sort_Id">signatures/Whitespace-sig</span></a>
-  <a href="../Types-sig.stx/#signatures/Types-sig_1_8" id="signatures/Types-sig_6_3" title="Defined at ../Types-sig.stx line 1"><span class="token sort_Id">signatures/Types-sig</span></a>
-  <a href="../Identifiers-sig.stx/#signatures/Identifiers-sig_1_8" id="signatures/Identifiers-sig_7_3" title="Defined at ../Identifiers-sig.stx line 1"><span class="token sort_Id">signatures/Identifiers-sig</span></a>
-  <a href="../Bindings-sig.stx/#signatures/Bindings-sig_1_8" id="signatures/Bindings-sig_8_3" title="Defined at ../Bindings-sig.stx line 1"><span class="token sort_Id">signatures/Bindings-sig</span></a>
-  <a href="../Variables-sig.stx/#signatures/Variables-sig_1_8" id="signatures/Variables-sig_9_3" title="Defined at ../Variables-sig.stx line 1"><span class="token sort_Id">signatures/Variables-sig</span></a>
-  <a href="../Functions-sig.stx/#signatures/Functions-sig_1_8" id="signatures/Functions-sig_10_3" title="Defined at ../Functions-sig.stx line 1"><span class="token sort_Id">signatures/Functions-sig</span></a>
-  <a href="../Numbers-sig.stx/#signatures/Numbers-sig_1_8" id="signatures/Numbers-sig_11_3" title="Defined at ../Numbers-sig.stx line 1"><span class="token sort_Id">signatures/Numbers-sig</span></a>
-  <a href="../Strings-sig.stx/#signatures/Strings-sig_1_8" id="signatures/Strings-sig_12_3" title="Defined at ../Strings-sig.stx line 1"><span class="token sort_Id">signatures/Strings-sig</span></a>
-  <a href="../Records-sig.stx/#signatures/Records-sig_1_8" id="signatures/Records-sig_13_3" title="Defined at ../Records-sig.stx line 1"><span class="token sort_Id">signatures/Records-sig</span></a>
-  <a href="../Arrays-sig.stx/#signatures/Arrays-sig_1_8" id="signatures/Arrays-sig_14_3" title="Defined at ../Arrays-sig.stx line 1"><span class="token sort_Id">signatures/Arrays-sig</span></a>
-  <a href="../Control-Flow-sig.stx/#signatures/Control-Flow-sig_1_8" id="signatures/Control-Flow-sig_15_3" title="Defined at ../Control-Flow-sig.stx line 1"><span class="token sort_Id">signatures/Control-Flow-sig</span></a>
+  <a href="../Base-sig.stx/#signatures/Base-sig_1_8" id="signatures/Base-sig_4_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Base-sig</span></a>
+  <a href="../Whitespace-sig.stx/#signatures/Whitespace-sig_1_8" id="signatures/Whitespace-sig_5_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Whitespace-sig</span></a>
+  <a href="../Types-sig.stx/#signatures/Types-sig_1_8" id="signatures/Types-sig_6_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Types-sig</span></a>
+  <a href="../Identifiers-sig.stx/#signatures/Identifiers-sig_1_8" id="signatures/Identifiers-sig_7_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Identifiers-sig</span></a>
+  <a href="../Bindings-sig.stx/#signatures/Bindings-sig_1_8" id="signatures/Bindings-sig_8_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Bindings-sig</span></a>
+  <a href="../Variables-sig.stx/#signatures/Variables-sig_1_8" id="signatures/Variables-sig_9_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Variables-sig</span></a>
+  <a href="../Functions-sig.stx/#signatures/Functions-sig_1_8" id="signatures/Functions-sig_10_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Functions-sig</span></a>
+  <a href="../Numbers-sig.stx/#signatures/Numbers-sig_1_8" id="signatures/Numbers-sig_11_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Numbers-sig</span></a>
+  <a href="../Strings-sig.stx/#signatures/Strings-sig_1_8" id="signatures/Strings-sig_12_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Strings-sig</span></a>
+  <a href="../Records-sig.stx/#signatures/Records-sig_1_8" id="signatures/Records-sig_13_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Records-sig</span></a>
+  <a href="../Arrays-sig.stx/#signatures/Arrays-sig_1_8" id="signatures/Arrays-sig_14_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Arrays-sig</span></a>
+  <a href="../Control-Flow-sig.stx/#signatures/Control-Flow-sig_1_8" id="signatures/Control-Flow-sig_15_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Control-Flow-sig</span></a>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span class="cons_SortDecl"><button class="modal-open" id="Module_20_5" title="Multi-file references" data-urls="#Module_23_20 line 23, 28; ../../../../trans/static-semantics.stx/#Module_8_15 line 8"><span class="token sort_Id">Module</span></button></span>
+    <span class="cons_SortDecl"><button class="modal-open" id="Module_20_5" title="a definition with multiple references" data-urls="#Module line 23_20, 28_18; ../../../../trans/static-semantics.stx/#Module line 8_15"><span class="token sort_Id">Module</span></button></span>
 
   <span class="keyword">constructors</span>
-    <span class="cons_OpDecl"><a href="../../../../trans/static-semantics.stx/#Module-Plhdr_517_13" id="Module-Plhdr_23_5" title="Referenced at ../../../../trans/static-semantics.stx line 517"><span class="token sort_Id">Module-Plhdr</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="#Module_20_5" id="Module_23_20" title="Defined at line 20"><span class="token sort_Id">Module</span></a></span></span>
+    <span class="cons_OpDecl"><a href="../../../../trans/static-semantics.stx/#Module-Plhdr_517_13" id="Module-Plhdr_23_5" title="a definition with a single reference"><span class="token sort_Id">Module-Plhdr</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="#Module_20_5" id="Module_23_20" title="a reference to a single-file definition"><span class="token sort_Id">Module</span></a></span></span>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">constructors</span>
-    <span class="cons_OpDecl"><a href="../../../../trans/static-semantics.stx/#Mod_10_13" id="Mod_28_5" title="Referenced at ../../../../trans/static-semantics.stx line 10"><span class="token sort_Id">Mod</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="../Base-sig.stx/#Exp_9_5" id="Exp_28_11" title="Defined at ../Base-sig.stx line 9"><span class="token sort_Id">Exp</span></a></span> <span class="operator">-&gt;</span> <span class="cons_SimpleSort"><a href="#Module_20_5" id="Module_28_18" title="Defined at line 20"><span class="token sort_Id">Module</span></a></span></span>
+    <span class="cons_OpDecl"><a href="../../../../trans/static-semantics.stx/#Mod_10_13" id="Mod_28_5" title="a definition with a single reference"><span class="token sort_Id">Mod</span></a> <span class="operator">:</span> <span class="cons_SimpleSort"><a href="../Base-sig.stx/#Exp_9_5" id="Exp_28_11" title="a reference to a single-file definition"><span class="token sort_Id">Exp</span></a></span> <span class="operator">-&gt;</span> <span class="cons_SimpleSort"><a href="#Module_20_5" id="Module_28_18" title="a reference to a single-file definition"><span class="token sort_Id">Module</span></a></span></span>
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">

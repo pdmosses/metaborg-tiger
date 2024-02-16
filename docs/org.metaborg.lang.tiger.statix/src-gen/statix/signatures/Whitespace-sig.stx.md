@@ -29,18 +29,18 @@ hide:
 17
 18
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger-sig.stx/#signatures/Whitespace-sig_5_3" id="signatures/Whitespace-sig_1_8" title="Referenced at ../Tiger-sig.stx line 5"><span class="token sort_Id">signatures/Whitespace-sig</span></a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger-sig.stx/#signatures/Whitespace-sig_5_3" id="signatures/Whitespace-sig_1_8" title="a definition with a single reference"><span class="token sort_Id">signatures/Whitespace-sig</span></a>
 
 <span class="keyword">imports</span>
 
 <span class="keyword">signature</span>
 
   <span class="keyword">sorts</span>
-    <span class="cons_SortAlias"><span id="CommentChar_8_5" title="Not referenced"><span class="token sort_Id">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
-    <span class="cons_SortAlias"><span id="InsideComment_9_5" title="Not referenced"><span class="token sort_Id">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
-    <span class="cons_SortAlias"><span id="SingleLineComment_10_5" title="Not referenced"><span class="token sort_Id">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
-    <span class="cons_SortAlias"><span id="NewLineEOF_11_5" title="Not referenced"><span class="token sort_Id">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
-    <span class="cons_SortAlias"><span id="EOF_12_5" title="Not referenced"><span class="token sort_Id">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="CommentChar_8_5" title="a definition with no references"><span class="token sort_Id">CommentChar</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="InsideComment_9_5" title="a definition with no references"><span class="token sort_Id">InsideComment</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="SingleLineComment_10_5" title="a definition with no references"><span class="token sort_Id">SingleLineComment</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="NewLineEOF_11_5" title="a definition with no references"><span class="token sort_Id">NewLineEOF</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
+    <span class="cons_SortAlias"><span id="EOF_12_5" title="a definition with no references"><span class="token sort_Id">EOF</span></span> <span class="operator">=</span> <span class="cons_StringSort"><span class="keyword">string</span></span></span>
 
   <span class="keyword">constructors</span>
 

@@ -25,10 +25,10 @@ hide:
 13
 14
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger-sig.stx/#signatures/Identifiers-sig_7_3" id="signatures/Identifiers-sig_1_8" title="Referenced at ../Tiger-sig.stx line 7"><span class="token sort_Id">signatures/Identifiers-sig</span></a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Tiger-sig.stx/#signatures/Identifiers-sig_7_3" id="signatures/Identifiers-sig_1_8" title="a definition with a single reference"><span class="token sort_Id">signatures/Identifiers-sig</span></a>
 
 <span class="keyword">imports</span>
-  <a href="../Base-sig.stx/#signatures/Base-sig_1_8" id="signatures/Base-sig_4_3" title="Defined at ../Base-sig.stx line 1"><span class="token sort_Id">signatures/Base-sig</span></a>
+  <a href="../Base-sig.stx/#signatures/Base-sig_1_8" id="signatures/Base-sig_4_3" title="a reference to a single-file definition"><span class="token sort_Id">signatures/Base-sig</span></a>
 
 <span class="keyword">signature</span>
 
